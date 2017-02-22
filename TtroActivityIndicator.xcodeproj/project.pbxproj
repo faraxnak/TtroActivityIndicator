@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36F7858F0E4FAECC3E64EAB0 /* Pods_TtroActivityIndicatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A85E9594804AD1275C0962D /* Pods_TtroActivityIndicatorTests.framework */; };
+		53CD36771FE8400E70F0016D /* Pods_TtroActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F506FBC7B4CBC1A2608D26 /* Pods_TtroActivityIndicator.framework */; };
+		7593752B1E5DBBA300EF9CF6 /* TtroActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759375211E5DBBA300EF9CF6 /* TtroActivityIndicator.framework */; };
+		759375301E5DBBA300EF9CF6 /* TtroActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7593752F1E5DBBA300EF9CF6 /* TtroActivityIndicatorTests.swift */; };
+		759375321E5DBBA300EF9CF6 /* TtroActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 759375241E5DBBA300EF9CF6 /* TtroActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7593753C1E5DBD0300EF9CF6 /* TtroBlurredActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7593753B1E5DBD0300EF9CF6 /* TtroBlurredActivityIndicatorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7593752C1E5DBBA300EF9CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759375181E5DBBA300EF9CF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759375201E5DBBA300EF9CF6;
+			remoteInfo = TtroActivityIndicator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163C31780EDC105F7AA23DCA /* Pods-TtroActivityIndicator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroActivityIndicator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TtroActivityIndicator/Pods-TtroActivityIndicator.debug.xcconfig"; sourceTree = "<group>"; };
+		34F506FBC7B4CBC1A2608D26 /* Pods_TtroActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TtroActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A85E9594804AD1275C0962D /* Pods_TtroActivityIndicatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TtroActivityIndicatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		759375211E5DBBA300EF9CF6 /* TtroActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TtroActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		759375241E5DBBA300EF9CF6 /* TtroActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TtroActivityIndicator.h; sourceTree = "<group>"; };
+		759375251E5DBBA300EF9CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7593752A1E5DBBA300EF9CF6 /* TtroActivityIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TtroActivityIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7593752F1E5DBBA300EF9CF6 /* TtroActivityIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtroActivityIndicatorTests.swift; sourceTree = "<group>"; };
+		759375311E5DBBA300EF9CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7593753B1E5DBD0300EF9CF6 /* TtroBlurredActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TtroBlurredActivityIndicatorView.swift; sourceTree = "<group>"; };
+		BCE559A094CCF7FA54A7BCC5 /* Pods-TtroActivityIndicatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroActivityIndicatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TtroActivityIndicatorTests/Pods-TtroActivityIndicatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAD20EC6C91B3DF31CE32713 /* Pods-TtroActivityIndicator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroActivityIndicator.release.xcconfig"; path = "Pods/Target Support Files/Pods-TtroActivityIndicator/Pods-TtroActivityIndicator.release.xcconfig"; sourceTree = "<group>"; };
+		F398C3BC2FD37042ABBD4CFE /* Pods-TtroActivityIndicatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroActivityIndicatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TtroActivityIndicatorTests/Pods-TtroActivityIndicatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7593751D1E5DBBA300EF9CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CD36771FE8400E70F0016D /* Pods_TtroActivityIndicator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759375271E5DBBA300EF9CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7593752B1E5DBBA300EF9CF6 /* TtroActivityIndicator.framework in Frameworks */,
+				36F7858F0E4FAECC3E64EAB0 /* Pods_TtroActivityIndicatorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		759375171E5DBBA300EF9CF6 = {
+			isa = PBXGroup;
+			children = (
+				759375231E5DBBA300EF9CF6 /* TtroActivityIndicator */,
+				7593752E1E5DBBA300EF9CF6 /* TtroActivityIndicatorTests */,
+				759375221E5DBBA300EF9CF6 /* Products */,
+				E75DEAC26C728BCFF23AADFD /* Pods */,
+				7F93E5546FC0BD267D90E8BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		759375221E5DBBA300EF9CF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				759375211E5DBBA300EF9CF6 /* TtroActivityIndicator.framework */,
+				7593752A1E5DBBA300EF9CF6 /* TtroActivityIndicatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		759375231E5DBBA300EF9CF6 /* TtroActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				759375241E5DBBA300EF9CF6 /* TtroActivityIndicator.h */,
+				759375251E5DBBA300EF9CF6 /* Info.plist */,
+				7593753B1E5DBD0300EF9CF6 /* TtroBlurredActivityIndicatorView.swift */,
+			);
+			path = TtroActivityIndicator;
+			sourceTree = "<group>";
+		};
+		7593752E1E5DBBA300EF9CF6 /* TtroActivityIndicatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7593752F1E5DBBA300EF9CF6 /* TtroActivityIndicatorTests.swift */,
+				759375311E5DBBA300EF9CF6 /* Info.plist */,
+			);
+			path = TtroActivityIndicatorTests;
+			sourceTree = "<group>";
+		};
+		7F93E5546FC0BD267D90E8BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34F506FBC7B4CBC1A2608D26 /* Pods_TtroActivityIndicator.framework */,
+				4A85E9594804AD1275C0962D /* Pods_TtroActivityIndicatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E75DEAC26C728BCFF23AADFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				163C31780EDC105F7AA23DCA /* Pods-TtroActivityIndicator.debug.xcconfig */,
+				DAD20EC6C91B3DF31CE32713 /* Pods-TtroActivityIndicator.release.xcconfig */,
+				F398C3BC2FD37042ABBD4CFE /* Pods-TtroActivityIndicatorTests.debug.xcconfig */,
+				BCE559A094CCF7FA54A7BCC5 /* Pods-TtroActivityIndicatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7593751E1E5DBBA300EF9CF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759375321E5DBBA300EF9CF6 /* TtroActivityIndicator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		759375201E5DBBA300EF9CF6 /* TtroActivityIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759375351E5DBBA300EF9CF6 /* Build configuration list for PBXNativeTarget "TtroActivityIndicator" */;
+			buildPhases = (
+				3BF22E2B5FF405CF8C8667B0 /* [CP] Check Pods Manifest.lock */,
+				7593751C1E5DBBA300EF9CF6 /* Sources */,
+				7593751D1E5DBBA300EF9CF6 /* Frameworks */,
+				7593751E1E5DBBA300EF9CF6 /* Headers */,
+				7593751F1E5DBBA300EF9CF6 /* Resources */,
+				00F84AE0B3F7FAF56E99C890 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TtroActivityIndicator;
+			productName = TtroActivityIndicator;
+			productReference = 759375211E5DBBA300EF9CF6 /* TtroActivityIndicator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		759375291E5DBBA300EF9CF6 /* TtroActivityIndicatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759375381E5DBBA300EF9CF6 /* Build configuration list for PBXNativeTarget "TtroActivityIndicatorTests" */;
+			buildPhases = (
+				7F9A395F76056060EB956CAC /* [CP] Check Pods Manifest.lock */,
+				759375261E5DBBA300EF9CF6 /* Sources */,
+				759375271E5DBBA300EF9CF6 /* Frameworks */,
+				759375281E5DBBA300EF9CF6 /* Resources */,
+				274F9A9B571E2A4CF888E61A /* [CP] Embed Pods Frameworks */,
+				1E74EB2DD56DCEA694E10409 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7593752D1E5DBBA300EF9CF6 /* PBXTargetDependency */,
+			);
+			name = TtroActivityIndicatorTests;
+			productName = TtroActivityIndicatorTests;
+			productReference = 7593752A1E5DBBA300EF9CF6 /* TtroActivityIndicatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		759375181E5DBBA300EF9CF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ParsPay;
+				TargetAttributes = {
+					759375201E5DBBA300EF9CF6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F53V3ZJV96;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					759375291E5DBBA300EF9CF6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F53V3ZJV96;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7593751B1E5DBBA300EF9CF6 /* Build configuration list for PBXProject "TtroActivityIndicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 759375171E5DBBA300EF9CF6;
+			productRefGroup = 759375221E5DBBA300EF9CF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				759375201E5DBBA300EF9CF6 /* TtroActivityIndicator */,
+				759375291E5DBBA300EF9CF6 /* TtroActivityIndicatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7593751F1E5DBBA300EF9CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759375281E5DBBA300EF9CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00F84AE0B3F7FAF56E99C890 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroActivityIndicator/Pods-TtroActivityIndicator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E74EB2DD56DCEA694E10409 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroActivityIndicatorTests/Pods-TtroActivityIndicatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		274F9A9B571E2A4CF888E61A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroActivityIndicatorTests/Pods-TtroActivityIndicatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BF22E2B5FF405CF8C8667B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F9A395F76056060EB956CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7593751C1E5DBBA300EF9CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7593753C1E5DBD0300EF9CF6 /* TtroBlurredActivityIndicatorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759375261E5DBBA300EF9CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759375301E5DBBA300EF9CF6 /* TtroActivityIndicatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7593752D1E5DBBA300EF9CF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 759375201E5DBBA300EF9CF6 /* TtroActivityIndicator */;
+			targetProxy = 7593752C1E5DBBA300EF9CF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		759375331E5DBBA300EF9CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		759375341E5DBBA300EF9CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		759375361E5DBBA300EF9CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 163C31780EDC105F7AA23DCA /* Pods-TtroActivityIndicator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TtroActivityIndicator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroActivityIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		759375371E5DBBA300EF9CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD20EC6C91B3DF31CE32713 /* Pods-TtroActivityIndicator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TtroActivityIndicator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroActivityIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		759375391E5DBBA300EF9CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F398C3BC2FD37042ABBD4CFE /* Pods-TtroActivityIndicatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroActivityIndicatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroActivityIndicatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7593753A1E5DBBA300EF9CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE559A094CCF7FA54A7BCC5 /* Pods-TtroActivityIndicatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroActivityIndicatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroActivityIndicatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7593751B1E5DBBA300EF9CF6 /* Build configuration list for PBXProject "TtroActivityIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759375331E5DBBA300EF9CF6 /* Debug */,
+				759375341E5DBBA300EF9CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759375351E5DBBA300EF9CF6 /* Build configuration list for PBXNativeTarget "TtroActivityIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759375361E5DBBA300EF9CF6 /* Debug */,
+				759375371E5DBBA300EF9CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759375381E5DBBA300EF9CF6 /* Build configuration list for PBXNativeTarget "TtroActivityIndicatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759375391E5DBBA300EF9CF6 /* Debug */,
+				7593753A1E5DBBA300EF9CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 759375181E5DBBA300EF9CF6 /* Project object */;
+}
